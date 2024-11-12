@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column; /* Para alinhar os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Altura total da janela */
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #fafafa; /* Apenas um exemplo de cor de fundo */
+}
+
+
+
+div {
+    height: 500px;
+    width: 500px;
+    background-image: url('image/bandeira.png');
+    background-position: center;
+    background-size: 90%; /* Ajusta a imagem para ocupar mais espaço da div */
+    background-repeat: no-repeat;
+    border: 10px groove #d32f2f;
+    border-radius: 5%;
+    margin: 20px;
+    background-color:   #eeeeee;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+  
+}
+
+h1{
+    color: #333;
+    font-family: bahiana;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px 20px 50px 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    animation: textAnimation 2s infinite;
+} 
